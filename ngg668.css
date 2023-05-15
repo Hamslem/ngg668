@@ -19,6 +19,7 @@ body{
     background-color: white;
     margin-bottom: 10px;
     box-shadow: 0 8px rgba(231, 224, 224, 0.921);
+    
 }
 .logo-head a{
     cursor: context-menu;
@@ -27,9 +28,10 @@ body{
     display: flex;
     justify-content: center;
     gap: 270px;
-    padding: 10px;
+    padding: 30px 10px;
     text-align: center;
     font-weight: 550;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
+    box-shadow: 0 8px rgba(231, 224, 224, 0.921);
 }
