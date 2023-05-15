@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 html{
     max-width: 100%;
     min-width: 100%;
@@ -10,9 +11,11 @@ html{
     background-color: white;
     scroll-behavior: smooth;
 }
+
 body{
     width: 100%;
 }
+
 .logo-head{
     padding: 5px 15px;
     width: 100%;
@@ -21,8 +24,10 @@ body{
     box-shadow: 0 8px rgba(231, 224, 224, 0.921);
     
 }
+
 .logo-head a{
     cursor: context-menu;
+
 }
 .list-of-options{
     display: flex;
@@ -34,5 +39,16 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
     box-shadow: 0 8px rgba(231, 224, 224, 0.921);
-    margin: 20px 50px;
+}
+
+.successfully{
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    color: rgb(172, 172, 172);
 }
