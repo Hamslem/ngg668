@@ -84,7 +84,7 @@ body{
 
 .slider{
     overflow: hidden;
-    /* margin: 50px; */
+    width: 100%;    
   }
   figure{
     width: 400%;
@@ -95,8 +95,8 @@ body{
   .slide{
     position: relative;
     width: 25%;
-    /* height: 100%; */
     float: left;
+    display: ;
   }
   
   @keyframes slide{
