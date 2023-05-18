@@ -42,45 +42,41 @@ body{
 }
 
 .successfully{
-    margin: 20px;
-    padding: 20px;
+    margin: 10px;
+    padding: 10px 20px;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 60%;
 }
+.hold{
+    align-content: center;
+}
 
 .holdover{
     display: flex;
     gap: 5px;
-    align-items: center;
-
 }
 
 .amount{
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.2rem;
+    font-size: 14px;
     color: rgb(172, 172, 172);
 }
 
 .one8{
     color: red;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 1rem;
+    font-size: 13px;
     font-weight: lighter;
 }
 
 .suc8{
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 1rem;
+    font-size: 13px;
     color: rgb(172, 172, 172);
     font-weight: lighter;
 }
-
-
-
-
-
 
 .slider{
     overflow: hidden;
@@ -90,7 +86,7 @@ body{
     width: 400%;
     height: 100%;
     position: relative;
-    animation: 4s slide infinite;
+    animation: 8s slide infinite;
   }
   .slide{
     position: relative;
@@ -116,4 +112,8 @@ body{
     80%{
         left: -200%;
     }
+  }
+
+  .intro{
+    padding: 15px;
   }
